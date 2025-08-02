@@ -6,5 +6,5 @@
 		"webp": 70
 	},
 	"input": "src/assets/images",
-	"output": "public/assets/images"
+	"output": "src/public/assets/images"
 }

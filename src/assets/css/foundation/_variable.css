@@ -5,6 +5,15 @@
 	--vw: 390px;
 	--size: calc(var(--vw) / var(--base-vw));
 
+	/* color */
+	--color-white: #fff;
+	--color-red: #fe221f;
+
+	/* font */
+	--font-oswald: 'oswald', sans-serif;
+	--font-avenir-lt-pro: avenir-lt-pro, sans-serif;
+	--font-futura-pt: futura-pt, sans-serif;
+
 	/* ease */
 	--ease-in-quad: cubic-bezier(0.55, 0.085, 0.68, 0.53);
 	--ease-in-cubic: cubic-bezier(0.55, 0.055, 0.675, 0.19);

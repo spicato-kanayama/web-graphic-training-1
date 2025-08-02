@@ -1,8 +1,8 @@
 /* リキッドデザインの場合 */
 
-/* html {
+html {
 	font-size: calc(var(--vw) / var(--base-vw));
-} */
+}
 
 body {
 	font-family:

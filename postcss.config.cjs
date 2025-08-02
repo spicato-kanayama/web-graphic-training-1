@@ -6,6 +6,11 @@ const pxvw = (px, base = 390) => {
 	return `${Math.round((px / base) * 10000) / 100}vw`;
 };
 
+const pxvh = (px, base = 874) => {
+	// 小数点第2位を四捨五入
+	return `${Math.round((px / base) * 10000) / 100}vh`;
+};
+
 const varsize = (size) => {
 	return `calc(${size} * var(--size))`;
 };
@@ -23,6 +28,7 @@ module.exports = {
 		require('postcss-functions')({
 			functions: {
 				pxvw,
+				pxvh,
 				varsize,
 			},
 		}),

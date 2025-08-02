@@ -7,5 +7,12 @@ export default {
 		'keyframes-name-pattern': null,
 		'declaration-block-no-redundant-longhand-properties': null,
 		'custom-property-pattern': null,
+		'function-no-unknown': [
+			true,
+			{
+				ignoreFunctions: ['pxvw', 'pxvh', 'varsize'],
+			},
+		],
+		'declaration-property-value-no-unknown': null,
 	},
 };
