@@ -1,5 +1,5 @@
 # build output
-dist/
+# dist/
 
 src/public/assets/images/*
 !src/public/assets/images/.gitkeep

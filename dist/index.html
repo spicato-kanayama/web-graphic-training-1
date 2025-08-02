@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<title>Web Graphic Training #1</title>
+		<meta name="description" content="Web Graphic Training #1" />
+		<meta name="format-detection" content="telephone=no" />
+
+		<link rel="icon" href="favicon.ico" />
+		<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+		<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+
+		<meta property="og:site_name" content="Web Graphic Training #1" />
+		<meta property="og:url" content="URL" />
+		<meta property="og:type" content="website or article" />
+		<meta property="og:title" content="Web Graphic Training #1" />
+		<meta property="og:description" content="Web Graphic Training #1" />
+		<meta property="og:image" content="./ogp.png" />
+		<meta property="og:locale" content="ja_JP" />
+		<meta name="twitter:card" content="summary_large_image or summary" />
+		<meta name="twitter:description" content="Web Graphic Training #1" />
+		<meta name="twitter:image:src" content="/ogp.png" />
+
+		<script>
+			let vw = document.documentElement.clientWidth;
+			const setFillWidth = () => {
+				document.documentElement.style.setProperty('--vw', `${vw}px`);
+			};
+			setFillWidth();
+
+			const resizeObserver = new ResizeObserver(() => {
+				if (vw === document.documentElement.clientWidth) {
+					return;
+				}
+				vw = document.documentElement.clientWidth;
+				requestAnimationFrame(setFillWidth);
+			});
+			resizeObserver.observe(document.documentElement);
+		</script>
+
+
+		<link rel="stylesheet" href="https://use.typekit.net/ipg5qpn.css" />
+		<script type="module" crossorigin src="./assets/js/index.min.js"></script>
+		<link rel="stylesheet" crossorigin href="./assets/css/index.min.css">
+	</head>
+
+	<body class="preload">
+		<h1 class="uVisuallyHidden">Web Graphic Training #1</h1>
+
+		<div class="p-container">
+			<div class="p-wrapper js-wrapper">
+				<div class="p-track js-track-1" data-id="1"></div>
+
+				<div class="p-track js-track-2" data-id="2"></div>
+
+				<div class="p-arrow js-arrow-1" data-id="1">
+					<svg width="96" height="96" fill="none" viewBox="0 0 96 96">
+						<path
+							stroke="currentColor"
+							stroke-linecap="square"
+							d="M93 93V3m0 0H.5M91.5 4.5 8.5 87.5"
+						/>
+					</svg>
+				</div>
+
+				<div class="p-arrow js-arrow-2" data-id="2">
+					<svg width="96" height="96" fill="none" viewBox="0 0 96 96">
+						<path
+							stroke="currentColor"
+							stroke-linecap="square"
+							d="M93 93V3m0 0H.5M91.5 4.5 8.5 87.5"
+						/>
+					</svg>
+				</div>
+
+				<div class="p-text">
+					<div class="p-text__web">
+						<div
+							class="p-text__web_item js-text-web-item"
+							data-id="1"
+						>
+							Web
+						</div>
+						<div
+							class="p-text__web_item js-text-web-item"
+							data-id="2"
+						>
+							Web
+						</div>
+						<div
+							class="p-text__web_item js-text-web-item"
+							data-id="3"
+						>
+							Web
+						</div>
+						<div
+							class="p-text__web_item js-text-web-item"
+							data-id="4"
+						>
+							Web
+						</div>
+						<div
+							class="p-text__web_item js-text-web-item"
+							data-id="5"
+						>
+							Web
+						</div>
+						<div
+							class="p-text__web_item js-text-web-item"
+							data-id="6"
+						>
+							Web
+						</div>
+					</div>
+
+					<div class="p-text__graphic">
+						<div
+							class="p-text__graphic_item js-text-graphic-item"
+							data-id="1"
+						>
+							Graphic
+						</div>
+					</div>
+
+					<div class="p-text__training">
+						<div
+							class="p-text__training_item js-text-training-item"
+							data-id="1"
+						>
+							Training
+						</div>
+						<div
+							class="p-text__training_item js-text-training-item"
+							data-id="2"
+						>
+							Training
+						</div>
+						<div
+							class="p-text__training_item js-text-training-item"
+							data-id="3"
+						>
+							Training
+						</div>
+					</div>
+
+					<div class="p-text__index">
+						<div
+							class="p-text__index_item js-text-index-item"
+							data-id="1"
+						>
+							#1
+						</div>
+					</div>
+				</div>
+
+				<div class="p-figure js-figure">
+					<div class="p-figure__box">
+						<div class="p-figure__box_top js-figure-box-top"></div>
+						<div
+							class="p-figure__box_right js-figure-box-right"
+						></div>
+						<div
+							class="p-figure__box_bottom js-figure-box-bottom"
+						></div>
+						<div
+							class="p-figure__box_left js-figure-box-left"
+						></div>
+					</div>
+
+					<div class="p-figure__circle js-figure-circle">
+						<svg
+							width="160"
+							height="160"
+							fill="none"
+							viewBox="0 0 160 160"
+							role="img"
+							aria-hidden="true"
+						>
+							<path
+								stroke="#fff"
+								d="M0 80C0 36 36 0 80 0 124 0 160 36 160 80 160 124 124 160 80 160 36 160 0 124 0 80"
+							/>
+						</svg>
+					</div>
+
+					<div class="p-figure__star js-figure-star">
+						<svg
+							width="160"
+							height="160"
+							fill="none"
+							viewBox="0 0 160 160"
+							role="img"
+							aria-hidden="true"
+						>
+							<path
+								fill="#fff"
+								d="m80 0 5.621 73.879L159.5 79.5l-73.879 5.621L80 159l-5.621-73.879L.5 79.5l73.879-5.621L80 0Z"
+							/>
+						</svg>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
